@@ -1,0 +1,175 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,600');
+/*----------------------------------------------------------------
+    Branding Colour
+----------------------------------------------------------------*/
+p, ul, ol, ul li, ol li, ul a, ol a, ul a:hover, ol a:hover, ul a:focus, ol a:focus, h1, h2, h3 {
+    font-family: 'Raleway', sans-serif;}
+    
+#header2a a, #header2a:before,header a, header span{
+    font-weight:400;}
+#banner1 p ,h1, h2, h3, .btn, strong{
+        font-weight:600;}
+        
+#banner1 h1, .formbuilder-form input#submit-form, p, ul, ol, ul li, ol li, ul a, ol a, ul a:hover, ol a:hover, ul a:focus, ol a:focus, .formbuilder-form label {
+    color: #fff;}
+    
+p, ul, ol, ul li, ol li, ul a, ol a, ul a:hover, ol a:hover, ul a:focus, ol a:focus, .formbuilder-form label{
+    font-weight:400;}
+    
+h2, hr {
+    color: #83a100;}
+    
+#services h3,#services p, #header2b a, #banner1 p, #header2a a, #header2a:before,header a, header span, #extraFormsContainer .modal-dialog .formbuilder-form label{
+    color:#222;}
+    
+ul li {
+    padding-bottom:30px;}
+    
+#banner1 p{
+    text-transform:uppercase;}
+hr{
+    margin-bottom:10px;
+    border:2px solid #83a100;
+    position:relative;}
+#content p.img img {
+    box-shadow: none;}
+.btn,.btn:hover, .btn:focus, #header2b a{
+    text-decoration:none;}
+
+/*Header*/
+#header2b {line-height:20px;}
+#header2b a{font-size:19px;}
+#header2{padding-bottom: 30px;padding-top: 5px;}
+#header2a:before {content: '\f098';}
+
+/*Banner*/
+#banner1 h1{
+    padding:10px;
+    background-color: rgba(131,161,0, 0.5);
+    border-radius: 20px;
+    font-size: 65px;}
+    
+#banner, #banner1 h1{
+    margin:0;
+    text-align:center;}
+    
+.banner_cover { 
+    opacity:0.5;
+    background-color:#fff;}
+    
+#banner1{width:100%;}
+
+/*Content*/
+ #content6, #contact2, #contact1b, #content5{
+     display:none;}
+     
+#content { 
+    padding-bottom:0px;}
+    
+#content2a img{
+    border-radius:10px;}
+    
+#contact1 {
+    margin-left: 15%;
+    margin-right: 10%;
+    width: 70%;}
+    
+#contact h2, #contact p{
+    text-align:center;}
+    
+#wrapper {
+    display: flex; flex-direction: column;}
+    
+/*Services*/
+#service1,#service2,#service3,#service4{
+    padding: 25px 10px 25px 10px;}
+    
+#service1:hover,#service2:hover,#service3:hover,#service4:hover{
+    transform: scale(1.1);
+    background-color:rgba(255, 255, 255, 0.5);
+    border-radius:10px;
+    border:solid 0.5px #000000;}
+    
+#content .img-responsive, #service1,#service2,#service3,#service4{
+    transition: 0.2s 0.2s ease-out;}
+    
+#content .img-responsive:hover {
+    transform: scale(1.05);}
+
+/*Forms & Buttons*/
+.btn{
+    background: rgba(0,0,0,0.8);
+    border-radius:15px;}
+    
+.formbuilder-form input#submit-form, .formbuilder-form input#submit-form:hover, .formbuilder-form input#submit-form:focus, .formbuilder-form input#submit-form:active, .formbuilder-form input#submit-form.active, .open>.dropdown-toggle.btn, #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form{
+    border-radius:25px;
+    background: rgba(131,161,0,0.6);
+    color: #fff;}
+    
+@media (min-width: 711px) {
+.btn:hover, .btn:focus, .btn:active, .btn.active, .open>.dropdown-toggle.btn, .formbuilder-form input#submit-form:hover, .formbuilder-form input#submit-form:focus, .formbuilder-form input#submit-form:active, .formbuilder-form input#submit-form.active, .open>.dropdown-toggle.btn, #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form:hover, #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form:focus, #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form:active, #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form.active, .open>.dropdown-toggle.btn {
+    border-radius:15px;
+    text-decoration:none;
+    background: rgba(131,161,0,0.6);
+    color: #fff;
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.1);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.1);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.1);
+    transition: all 200ms ease-in;
+    transform: scale(1.1);}}
+    
+.formbuilder-form input#submit-form{
+    background-color:#f7c51e;}
+    
+.form, #contact_form_form, #quote_form_form {
+    background-color: transparent;
+    border-radius:15px;}
+    
+.formbuilder-form input, .formbuilder-form textarea,.formbuilder-form input:hover, .formbuilder-form textarea:hover,.formbuilder-form input:focus, .formbuilder-form textarea:focus {
+    border-radius: 5px;
+    background-color:#e5e5e5;}
+    
+.formbuilder-form input#submit-form {
+    background-color: #83a100;}
+#extraFormsContainer .modal-dialog {
+    background: rgba(255,255,255,0.9);
+    text-align: left;}
+
+#content4b .img-responsive {border-radius:265px;}
+/*Footer*/
+footer *, footer a , footer {color: #222;}
+footer {
+    border-top:5px solid  #83a100;
+    background-color:#fff;
+    padding: 25px 0 25px;}
+/*----------------------------------------------------------------
+    Media Queries
+----------------------------------------------------------------*/
+@media only screen and (min-width: 1200px){
+    #content3a, #content4b{width: 45%;}
+    #content3b, #content4a{width: 50%;}
+    #content img {width:100%;}
+}
+@media (max-width: 767px) {
+    li:before {display:none;}
+    hr {
+        text-align: center;}
+    #service3 {clear:left }
+    #contact1{
+        width: 80%;
+        margin-left: 10%;}
+    #header2 {
+    padding-bottom: 50px;
+    padding-top: 5px;}
+}
+@media (max-width:480px){
+    .btn {
+        width: 100%;
+        padding-left: 33px;}
+    #banner1 h1 {font-size: 40px;}}
+@media (max-width: 1100px) {.content_block {padding-bottom: 0px;}}
